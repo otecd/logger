@@ -1,0 +1,28 @@
+{
+  "name": "luna-library-template",
+  "version": "1.0.0",
+  "description": "A template for LUNA libraries",
+  "main": "build/index.js",
+  "files": [
+    "build"
+  ],
+  "publishConfig": {
+    "registry": "https://packages.lunaapps.ru"
+  },
+  "scripts": {
+    "build": "neutrino build",
+    "lint": "neutrino lint",
+    "lint:fix": "npm run lint -- --fix",
+    "test": "neutrino test"
+  },
+  "keywords": [],
+  "author": "Dmitrii Pron <idimzz@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@neutrinojs/library": "^8.3.0",
+    "@neutrinojs/mocha": "^8.3.0",
+    "@neutrinojs/standardjs": "^8.3.0",
+    "babel-plugin-dynamic-import-node": "^2.3.0",
+    "neutrino": "^8.3.0"
+  }
+}
