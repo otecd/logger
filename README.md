@@ -1,3 +1,3 @@
-# Library template
+# Logger
 
-Шаблон для библиотеки LUNA
+Удобное логирование в NodeJS апе
