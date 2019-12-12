@@ -1,13 +1,13 @@
 {
-  "name": "luna-logger",
-  "version": "1.0.0",
+  "name": "@noname.team/logger",
+  "version": "1.0.1",
   "description": "A cli logger for nodejs",
   "main": "build/index.js",
   "files": [
     "build"
   ],
   "publishConfig": {
-    "registry": "https://packages.lunaapps.ru"
+    "access": "public"
   },
   "scripts": {
     "build": "neutrino build",
