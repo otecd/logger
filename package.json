@@ -1,6 +1,6 @@
 {
   "name": "@noname.team/logger",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A cli logger for nodejs",
   "main": "build/index.js",
   "files": [
