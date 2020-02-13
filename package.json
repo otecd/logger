@@ -1,5 +1,5 @@
 {
-  "name": "@noname.team/logger",
+  "name": "logger",
   "version": "1.0.4",
   "description": "A cli logger for nodejs",
   "main": "build/index.js",
