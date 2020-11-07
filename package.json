@@ -1,6 +1,6 @@
 {
   "name": "logger",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A cli logger for nodejs",
   "main": "build/index.js",
   "files": [
