@@ -1,7 +1,7 @@
-import assert from 'assert';
+import logger from '../src'
 
-describe('simple', () => {
-  it('should be sane', () => {
-    assert.equal(true, !false);
-  });
-});
+describe('Unit / index', () => {
+  it('should be a function', () => {
+    expect(logger).to.be.instanceOf(Function)
+  })
+})
