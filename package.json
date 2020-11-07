@@ -10,19 +10,37 @@
     "access": "public"
   },
   "scripts": {
-    "build": "neutrino build",
-    "lint": "neutrino lint",
+    "test": "mocha -r chai/register-expect",
+    "lint": "standard",
     "lint:fix": "npm run lint -- --fix",
-    "test": "neutrino test"
+    "build": "webpack --mode production"
   },
   "keywords": [],
   "author": "Dmitrii Pron <idimzz@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:papadima/logger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/papadima/logger/issues"
+  },
+  "homepage": "https://github.com/papadima/logger",
   "license": "ISC",
   "devDependencies": {
-    "@neutrinojs/library": "^8.3.0",
-    "@neutrinojs/mocha": "^8.3.0",
-    "@neutrinojs/standardjs": "^8.3.0",
-    "babel-plugin-dynamic-import-node": "^2.3.0",
-    "neutrino": "^8.3.0"
+    "@neutrinojs/library": "^9.4.0",
+    "@neutrinojs/mocha": "^9.4.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "neutrino": "^9.4.0",
+    "standard": "^14.3.1",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "it",
+      "expect"
+    ]
   }
 }
